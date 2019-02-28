@@ -1,0 +1,21 @@
+from _codecs import encode
+import urllib.request
+from _codecs import encode
+
+#from idlelib.iomenu import encoding
+
+def main():
+    print('hello')
+
+web = urllib.request.urlopen("https://www.python.org/")
+
+for code in web:
+    print(str(code,encode = 'utf-8',end =' ')
+    
+# print( re.sub('(H/h/s)ttp',' hello',code),end ='')
+        #patternmatch = re.search('https',code)
+#if patternMatch:
+    #print(patternMatch.group())   
+    
+    
+if __name__ == "__main__" : main()
