@@ -1,0 +1,77 @@
+import re
+
+def main():
+    
+    print("hello")
+    
+    
+#     msg ="hitesh welcomed me in the python course thats great"
+# #     
+#     for c in msg:
+#         if c =='n':
+#             break
+#            
+#         
+#         print(c,end='')
+#     print("\n i am out of the loop ")
+#     value = "this is a string "
+#     
+#     
+#     for index,charac in enumerate(value):
+#         print(index,charac,end='')
+    
+# fibonnaci series
+#     first  = 0
+#     second = 1
+#     print(first)
+#     while second < 400 :
+#         print(second ,end=' ')
+#         first,second = second,first + second
+    
+    
+#     days= dict(one = "monday",
+#                two = "Tuesday",
+#                three= "Wednesday")
+#     day ="four"
+# 
+#     print(days.get(day,'no match'))    
+#     
+#     tup = (3,4,5,6)
+#     print(tup)
+#     
+#     
+#     list = [3,4,5,6]
+#     list.append(7)
+#     print(list) 
+#     list.insert (3,9)
+#     print(list)
+# 
+#     dict1  = {'one' :1,2:'two'}
+#     print(dict1)
+#     dict2 =dict ([('one',1),('two',2)])
+#     print(dict2)
+#     dict3 = dict( one = 1, two =2)
+#     print(dict3)
+    
+       
+#     
+#     str1='this is string one'
+#     str2="this is the \n second string"
+#     str3='''this the 
+#     third string'''
+#     
+#     print(str1)
+  
+#     
+
+    file = open("google.txt")
+    
+    for i in file:
+        print( re.sub('(G|g)oogle','apple inc',i),end='')
+#         patternMatch = re.search("(GLg)google",i)
+#         if patternMatch:
+#             print(patternMatch.group())
+
+            
+            
+if __name__ == "__main__": main()      
