@@ -1,0 +1,25 @@
+
+
+
+def main():
+    print("Hello")
+    
+    tupy = 1,2,3,4,5
+    print(tupy)
+    
+    singleTupy = (1,)
+    print(type(singleTupy))
+    
+    tupo = tuple(range(20))  #Fixed
+    listo = list(range(21,41))  #change this
+    
+    print(19 in tupo)
+    
+     
+    
+    listo.append(200)
+    print(listo)
+
+    
+    
+if __name__ == "__main__":  main()
