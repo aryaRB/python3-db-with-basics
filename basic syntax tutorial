@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+#this a file
+
+def main():
+    print( " kevinscore",&kevinscore) 
+    DEFAULTSCORE =100
+    if kevinscore >  DEFAULTSCORE :   
+        print("you did it Kevin")
+    elif kevinscore < DEFAULTSCORE :
+        print("try hard Kevin")
+    else :
+        print("your score is equal to the default score ") 
+        
+            
+#     msg = "you did it" if HighScoreKevin > defaultHighScore  else "you didn't made it"
+#     print(msg)
+#     a,b = 2,3
+#     a,b = b,a
+#     print(a,b)
+#     helloworld = 1.2
+#     print(type(helloworld),helloworld)
+#     sayhi()
+#     
+# def sayhi():
+#     print("hi you there")
+#         
+if __name__ =="__main__": mai
