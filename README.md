@@ -1,3 +1,3 @@
 # python3-db-with-basics
 
-this are the code or programs i learned during my python tutorial.. projects coming soon with included database
+this are the code or programs for beginner python.. projects coming soon with included database
